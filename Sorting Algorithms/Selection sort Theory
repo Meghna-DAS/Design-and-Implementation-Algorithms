@@ -1,0 +1,40 @@
+1) 6,2,7,11,5- 2 swaps 
+
+2,6,7,11,5 
+2,5,6,7,11 
+
+2)10,4,6,20,7,9,2,16-  7 swaps 
+
+2,10,4,6,20,7,9,16 
+2,4,10,6,20,7,9,16 
+2,4,6,10,20,7,9,16 
+2,4,6,7,10,20,9,16 
+2,4,6,7,9,10,20,16 
+2,4,6,7,9,10,16,20 
+
+Time Complexity of Selection sort
+
+Best Ω(n^2) 
+Average θ(n^2) 
+Worst  O(n^2) 
+
+Applications of selection sort
+-->Selection sort almost always outperforms bubble sort and gnome sort.
+-->Can be useful when memory write is a costly operation.
+-->While selection sort is preferable to insertion sort in terms of number of writes (Θ(n) swaps versus Ο(n^2) swaps).
+-->It almost always far exceeds the number of writes that cycle sort makes, as cycle sort is theoretically optimal in the number of writes.
+-->This can be important if writes are significantly more expensive than reads, such as with EEPROM or Flash memory, where every write lessens the lifespan of the memory.
+
+Advantages of selection sort
+
+The main advantage of the selection sort is that it performs well on a small list.
+Because it is an in-place sorting algorithm, no additional temporary storage is required beyond what is needed to hold the original list.
+Its performance is easily influenced by the initial ordering of the items before the sorting process.
+
+
+Disadvantages of selection sort
+
+The primary disadvantage of the selection sort is its poor efficiency when dealing with a huge list of items.
+The selection sort requires n-squared number of steps for sorting n elements.
+Quick Sort is much more efficient than selection sort
+

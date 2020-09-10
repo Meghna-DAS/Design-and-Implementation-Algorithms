@@ -1,0 +1,26 @@
+Advantages of merge sort
+
+It is quicker for larger lists because unlike insertion and bubble sort it doesnt go through the whole list seveal times. 
+It has a consistent running time, carries out different bits with similar  times in a stage. 
+
+Disadvantages of merge sort
+
+Slower comparative to the other sort algorithms for smaller tasks. 
+goes through the whole process even i he list is sorted (just like insertion and bubble sort?) 
+uses more memory space to store the sub elements of the initial split list. 
+
+Time Complexity of merge sort
+
+Best Case Complexity: O(n*log n) 
+Worst Case Complexity: O(n*log n) 
+Average Case Complexity: O(n*log n) 
+
+ 
+Space Complexity of merge sort
+The space complexity of merge sort is O(n). 
+
+Merge Sort Applications 
+
+Inversion count problem 
+External sorting 
+E-commerce applications 

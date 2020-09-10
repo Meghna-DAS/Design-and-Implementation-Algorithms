@@ -1,0 +1,55 @@
+1)121,432,564,23,1,45,788  
+
+121,001,432,023,564,045,788  
+001,121,023,432,045,564,788  
+001,023,045,121,432,564,788 
+
+ 
+2)954,354,009,411 
+
+411,354,954,009 
+009,411,354,954 
+009,354,411,954 
+
+3)326,453,608,835,751,435,704,690 
+
+690,751,453,704,435,835,326,608 
+608,704,326,435,835,453,751,690 
+326,435,453,608,690,704,751,835 
+
+4)10,04,06,20,07,09,02,16 
+
+10,20,02,04,06,16,07,09 
+02,04,06,07,09,10,16,20 
+
+ 
+5)042,133,007,023,074,670,049---homework 
+
+670,042,023,133,074,007,049 
+007,023,133,042,049,074,670 
+007,023,042,049,074,133,670 
+
+ The advantages of Radix Sort are: 
+
+Fast when the keys are short i.e. when the range of the array elements is less. 
+Used in suffix array construction algorithms like Manber's algorithm and DC3 algorithm. 
+Radix Sort is stable sort as relative order of elements with equal values is maintained. 
+
+ The disadvantages of Radix Sort are: 
+
+ Since Radix Sort depends on digits or letters, Radix Sort is much less flexible than other sorts. Hence , for every different type of data it needs to be rewritten. 
+The constant for Radix sort is greater compared to other sorting algorithms. 
+
+Complexity 
+
+Radix sort is a non-comparative algorithm, it has advantages over comparative sorting algorithms. 
+For the radix sort that uses counting sort as an intermediate stable sort, the time complexity is O(d(n+k)). 
+Here, d is the number cycle and O(n+k) is the time complexity of counting sort. 
+
+Best case, Worst case and Average Case of Radix sort - 
+
+Radix sort complexity is O(kn) for n keys which are integers of word size k. For all there cases time i.e best , worst and average time complexity is O(kn). 
+It takes more space compared to Quicksort which is inplace sorting. 
+Radix sort can be slower than other sorting algorithms like merge sort and quick sort, if the operations are not efficient enough. These operations include inset and delete functions of the sub-list and the process of isolating the digits we want. 
+Radix sort is less flexible than other sorts as it depends on the digits or letter. Radix sort needs to be rewritten if the type of data is changed. 
+It is not an in-place sorting algorithm as it requires extra additional space 

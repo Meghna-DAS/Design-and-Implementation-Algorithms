@@ -1,0 +1,61 @@
+1.Algorithm of isfull() function
+begin procedure isfull 
+ 
+
+if top equals to MAXSIZE 
+      return true 
+   else 
+      return false 
+   endif 
+    
+end procedure 
+
+ 
+
+2.Algorithm of isempty() function − 
+
+begin procedure isempty 
+ 
+
+if top less than 1 
+      return true 
+   else 
+      return false 
+   endif 
+    
+end procedure 
+
+ 
+
+3.A simple algorithm for Push operation can be derived as follows − 
+
+begin procedure push: stack, data 
+ 
+
+if stack is full 
+      return null 
+   endif 
+    
+   top ← top + 1 
+   stack[top] ← data 
+ 
+
+end procedure 
+
+ 
+
+4.A simple algorithm for Pop operation can be derived as follows − 
+
+begin procedure pop: stack 
+ 
+
+if stack is empty 
+      return null 
+   endif 
+    
+   data ← stack[top] 
+   top ← top - 1 
+   return data 
+ 
+
+end procedure 

@@ -1,0 +1,10 @@
+             Time Complexity	                                                       Space Complexity
+             Average	                            Worst	                              Worst
+             Access	Search	Insertion	Deletion	Access	Search	Insertion	Deletion	
+Array       	Θ(1)	 Θ(n)	    Θ(n)	    Θ(n)    	O(1)	 O(n)	    O(n)     	O(n)	     O(n)
+Stack	        Θ(n)	 Θ(n)   	Θ(1)  	  Θ(1)    	O(n)   O(n)	    O(1)	    O(1)	     O(n)
+Queue        	Θ(n) 	 Θ(n)	    Θ(1)    	Θ(1)	    O(n)	 O(n)    	O(1)	    O(1)	     O(n)
+Singly-Linked 
+List       	  Θ(n)	 Θ(n)	    Θ(1)	    Θ(1)	    O(n)	 O(n)	    O(1)	    O(1)	     O(n)
+Doubly-Linked 
+List	        Θ(n)	 Θ(n)    	Θ(1)     	Θ(1)	    O(n)	 O(n)    	O(1)	    O(1)	     O(n)

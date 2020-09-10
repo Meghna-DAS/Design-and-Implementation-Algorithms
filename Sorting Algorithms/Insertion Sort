@@ -1,0 +1,55 @@
+1)4,3,2,10,12,1,5,6—4 swaps, 
+
+3,4,2,10,12,1,5,6 
+2,3,4,10,12,1,5,6 
+2,3,4,10,12,1,5,6 
+1,2,3,4,10,12,5,6 
+1,2,3,4,5,10,12,6 
+1,2,3,4,5,6,10,12 
+
+2)5,1,6,2,4,3- 4 swaps, 
+
+1,5,6,2,4,3 
+1,5,6,2,4,3 
+1,5,6,2,4,3 
+1,2,5,6,4,3 
+1,2,4,5,6,3 
+1,2,3,4,5,6 
+
+3)8,3,2,7,9,1,4- 5 swaps 
+
+3,8,2,7,9,1,4 
+2,3,8,7,9,1,4 
+2,3,7,8,9,1,4 
+2,3,7,8,9,1,4 
+1,2,3,7,8,9,4 
+1,2,3,4,7,8,9 
+
+
+Insertion Sort Time Complexities
+
+Best -Ω(n) 
+Average -θ(n^2) 
+Worst-O(n^2) 
+
+Application of Insertion Sort
+
+-->the array is has a small number of elements
+-->there are only a few elements left to be sorted
+-->One more real world example of insertion sort is how tailors arrange shirts in a cupboard, they always keep them in sorted order of size and thus insert new 
+shirt at the right position very quickly by moving other shirts forward to keep the right place for a new shirt.
+
+Advantages of Insertion sort
+
+->The main advantage of the insertion sort is its simplicity.
+->It also exhibits a good performance when dealing with a small list.
+->The insertion sort is an in-place sorting algorithm so the space requirement is minimal.
+
+Disadvantages of Insertion sort
+->The disadvantage of the insertion sort is that it does not perform as well as other, better sorting algorithms
+->With n-squared steps required for every n element to be sorted, the insertion sort does not deal well with a huge list.
+->The insertion sort is particularly useful only when sorting a list of few items.
+
+
+
+

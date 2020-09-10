@@ -1,0 +1,89 @@
+1)49510 
+
+ 
+
+Step 1: 45910 
+45190 
+45109 sequence 1st iteration 
+
+Step 2: 41509 
+41059 sequence 2nd iteration 
+
+Step 3: 14059 
+10459 sequence 3rd iteration 
+
+Step4 : 01459 seq 4th iteration  
+
+ 
+
+2)10 swapings 
+
+1 : 8, 7, 9, 22, 5, 13, 31 = 4 swaps 
+2 : 7, 8, 9, 5, 13, 22, 31 = 3 swaps 
+3 : 7, 8, 5, 9, 13, 22, 31 = 1 swap 
+4 : 7, 5, 8, 9, 13, 22, 31 = 1 swap 
+5 : 5, 7, 8, 9, 13, 22, 31 = 1 swap 
+Total 10 swaps are required to sort the array. 
+
+Ans1) Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order. 
+
+Example: 
+First Pass: 
+( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1. 
+( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 ), Swap since 5 > 4 
+( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 ), Swap since 5 > 2 
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them. 
+
+Second Pass: 
+( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ) 
+( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 ) 
+Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted. 
+
+Third Pass: 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) 
+
+ 
+
+Bubble sort Time Complexity and Space Complexity 
+
+Worst complexity: O (n^2).Worst case occurs when array is reverse sorted. 
+Average complexity: O(n^2). To calculate the complexity of the bubble sort algorithm, it is useful to determine how many comparisons each loop performs. For each element in 
+the array, bubble sort does n-1n−1 comparisons. In big O notation, bubble sort performs O(n)comparisons. Because the array contains nn elements, it has an O(n) number of 
+elements. In other words, bubble sort performs O(n)operations on an O(n) number of elements, leading to a total running time of O(n^2) 
+Best complexity: O( n).Best case occurs when array is already sorted. It is possible to modify bubble sort to keep track of the number of swaps it performs. 
+If an array is already in sorted order, and bubble sort makes no swaps, the algorithm can terminate after one pass. With this modification, if bubble sort encounters 
+a list that is already sorted, it will finish in O(n)time. 
+
+Space complexity: O(1).Stable Sort 
+
+Bubble sort algorithm has several advantages.  
+
+It is simple to write,  
+Easy to understand  
+Only takes a few lines of code.  
+The data is sorted in place so there is little memory overhead 
+Once sorted, the data is in memory, ready for processing.  
+
+The major disadvantages are : 
+
+-->the amount of time it takes to sort. The average time increases almost exponentially as the number of table elements increase. Ten times the number of items takes 
+almost one hundred times as long to sort. 
+-->With a running time of O(n^2), it is highly inefficient for large data sets. 
+
+Applications of Bubble sort : 
+
+-->It can be used to sort the students on basis of their height in a line. 
+-->To create a stack , pile up the elements on basis of their weight 
+-->Can be used for small data set like trying to get the books on a shelf back in order 
+-->A nearly sorted data set like trying to decide which laptop to buy because it is easier to compare laptops one at a time and decide which one is most preferred then to 
+look at all laptops at once and decide which was best. 
+
+Is Bubble sort good or bad? 
+
+Bubble sort is easy to implement and it is fast enough when you have small data sets. It can be good if swap of two adjacent items is chip and swap of arbitrary items is 
+expensive. But not good for large data sets because it will consume a lot of time 

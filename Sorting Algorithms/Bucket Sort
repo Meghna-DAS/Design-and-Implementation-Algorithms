@@ -1,0 +1,68 @@
+1)0.42  0.32  0.23  0.52  0.25  0.47  0.51 
+N= 7, no. of elements= no. of buckets 
+B1 =  
+B2= 0.23  0.25 
+B3 = 0.32 
+B4 = 0.42  0.47 
+B5 = 0.51  0.52 
+B6 =  
+B7 =  
+Sorted array = 0.23  0.25  0.32  0.42  0.47  0.51  0.52 
+
+ 
+
+2)29,25,3,49,9,37,21,43 
+Initial array 
+29 25  3 49  9 37 21 43 
+Bucket[0-9] :   9  3 
+Bucket[10-19] : 
+Bucket[20-29] :  21 25 29 
+Bucket[30-39] :  37 
+Bucket[40-49] :  43 49 
+ 
+Buckets after sorted 
+Bucket[0-9] :   3  9 
+Bucket[10-19] : 
+Bucket[20-29] :  21 25 29 
+Bucket[30-39] :  37  
+Bucket[40-49] :  43 49 
+Sorted array 
+  3  9 21 25 29 37 43 49 
+
+ 3)56,12,84,28,0,-13,47,94,31,12 
+
+Bucket[(-20)-(-1)]: 13 
+Bucket[0-9] : 0 
+Bucket[10-19] :12 12 
+Bucket[20-29] : 28 
+Bucket[30-39] :31 
+Bucket[40-49] : 47 
+Bucket[50- 59]: 56 
+Bucket[60-69]:  
+Bucket[ 70-79]: 
+Bucket[80-89]: 84 
+Bucket[90-99]:94 
+ 
+Sorted array= -13, 0, 12, 12, 28, 31, 47, 56, 84, 94 
+
+
+1) Advantages of bucket sort 
+
+BucketSort is an example of a sorting algorithm that runs in O(n). This is possible only because BucketSort does not rely primarily on comparisons in order to perform sorting. 
+Simple to code 
+Good for rough sort 
+Asymptomatically fast(when distribution is uniform) 
+
+2)Disadvantages of bucket sort 
+
+BucketSort is not useful when scanning the buckets for large arrays which is too costly. 
+Bucket sort's efficiency is sensitive to the distribution of the input values, if you have tightly-clustered values 
+The performance of bucket sort depends on the number of buckets chosen 
+
+ 
+3)Performance:  
+
+The best time complexity for bucket sort is O(n) 
+The average time complexity for Bucket Sort is O(n + k).  
+The worst time complexity is O(n²). 
+The space complexity for Bucket Sort is O(n+k). 

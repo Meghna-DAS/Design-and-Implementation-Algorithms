@@ -1,0 +1,69 @@
+1)8,15,5,30,10,25,20 
+
+8,15,5,20,10,25,30 
+8,15,25,20,10,5,30 
+5,15,25,20,10,8,30 
+5,15,25,8,10,20,30 
+5,15,10,8,25,20,30 
+5,15,10,8,20,25,30 
+5,15,8,10,20,25,30 
+5,8,15,10,20,25,30 
+5,8,10,15,20,25,30 
+
+ 
+
+2)11,16,2,8,1,9,4,7 
+
+11  16  2  8  1  9  4  7 
+
+Pivot = 7 
+
+11  16  2  8  1  9  4  7 
+11  16  2  8  1  9  4  7 
+2  16  11  8  1  9  4  7 
+2  16  11  8  1  9  4  7 
+2  1  11  8  16  9  4  7 
+2  1  11  8  16  9  4  7 
+2  1  4  8  16  9  11  7 
+2  1  4  7  16  9  11  8 
+
+Pivot = 4, 11 
+
+Array 1                  array 2 
+
+2  1  7  4                16  9  8  11 
+2  1  7  4                16  9  8  11 
+1  2  7  4                9  16  8  11 
+1  2  4  7                9  8  16  11 
+1  2  4  7                9  8  11  16 
+
+ 2)Time Complexity of Quick sort 
+
+Worst-case performance O(n2) 
+Best-case performance O(n log n) (simple partition) or O(n) (three-way partition and equal keys) 
+Average performance O(n log n) 
+
+3)Advantages of Quicksort  
+
+Its average-case time complexity to sort an array of n elements is O(n lg n).  
+On the average it runs very fast, even faster than Merge Sort.  
+It requires no additional memory.  
+
+ Disadvantages of Quicksort  
+
+Its running time can differ depending on the contents of the array.  
+Quicksort's running time degrades if given an array that is almost sorted (or almost reverse sorted). 
+Its worst-case running time, O(n 2 ) to sort an array of n elements, happens when given a sorted array. It is not stable.  
+
+Applications of Quicksort
+generally it runs fast
+-no additional memory is required
+life critical:-
+1.medical monitoring
+2.life support in aircraft & spacecraft)
+-mission critical :-
+1.monitring & control in industrial & reaserch plants handling dangerous material
+2.control for aircraft.
+3.defence
+
+ 
